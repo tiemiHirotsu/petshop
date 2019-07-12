@@ -1,0 +1,40 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//my style
+@import "_header";
+@import "_footer";
+@import "_admin";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* tem um tamanho máximo da box, năo importa o tamanho do padding */
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Tipo da letra escolhida */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.image_service{
+    max-width: 600px;
+    max-height: 300px;
+    margin-bottom: 30px;
+}
+
+h3{
+    margin-top:100px;
+}
+
+h4{
+    font-size:1rem;
+}
+
